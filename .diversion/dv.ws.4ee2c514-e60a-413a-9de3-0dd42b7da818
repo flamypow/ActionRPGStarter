@@ -1,0 +1,14 @@
+{
+  "WorkspaceID": "dv.ws.4ee2c514-e60a-413a-9de3-0dd42b7da818",
+  "RepoID": "dv.repo.7e7e178c-9637-4ce8-8aeb-a9ef31bef800",
+  "Path": "C:\\Users\\wytch\\Documents\\ActionRPGStarter",
+  "AccountID": "Google_117646515790273184465",
+  "BranchID": "dv.branch.1",
+  "BranchName": "main",
+  "CommitID": "dv.commit.1",
+  "Paused": false,
+  "ShouldDownload": true,
+  "RepoName": "ActionRPGStarter",
+  "ReadOnly": false,
+  "DigestMethod": "sha1"
+}
