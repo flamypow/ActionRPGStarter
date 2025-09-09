@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "AttributeSet.h"
-#include "MyAttributeSet.generated.h"
+#include "BASE_AttributeSet.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class MYPROJECT_API UMyAttributeSet : public UAttributeSet
+class MYPROJECT_API UBASE_AttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
 	
