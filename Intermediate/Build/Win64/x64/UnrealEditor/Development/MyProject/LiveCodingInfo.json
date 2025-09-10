@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MyProject.gen.cpp.obj": [
+			"BASE_AttributeSet.gen.cpp.obj",
+			"MyActor.gen.cpp.obj",
+			"MyProject.init.gen.cpp.obj"
+		]
+	}
+}

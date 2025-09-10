@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\module.myproject.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\base_attributeset.gen.cpp",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\source\\myproject\\base_attributeset.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\base_attributeset.generated.h",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myactor.gen.cpp",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\source\\myproject\\myactor.h",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myactor.generated.h",
+            "c:\\users\\wytch\\documents\\actionrpgstarter\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\myproject.init.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
