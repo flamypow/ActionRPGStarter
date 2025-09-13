@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "UObject/ObjectMacros.h"
 #include "AttributeSet.h"
 #include "AbilitySystemComponent.h"
-
 #include "BASE_AttributeSet.generated.h"
 
 #define ATTRIBUTE_ACCESSORS(ClassName, PropertyName) \
@@ -17,7 +17,8 @@
 /**
  * 
  */
-UCLASS()
+
+UCLASS(Blueprintable, BlueprintType, meta = (HideInDetailsView), MinimalAPI)
 class MYPROJECT_API UBASE_AttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
