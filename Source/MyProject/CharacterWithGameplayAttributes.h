@@ -7,6 +7,8 @@
 #include "AbilitySystemInterface.h"
 #include "CharacterWithGameplayAttributes.generated.h"
 
+class UBASE_AttributeSet;
+
 UCLASS()
 class MYPROJECT_API ACharacterWithGameplayAttributes : public ACharacter, public IAbilitySystemInterface
 {
@@ -24,8 +26,11 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	UPROPERTY()
-	class UBASE_AttributeSet* BASEAttributeSet;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "BASE Attributes")
+	UBASE_AttributeSet* BASEAttributeSet;
+
+	UBASE_AttributeSet* get_BASE_AttributeSet()
+	{ return BASEAttributeSet;	};
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "Abilities")
 	class UAbilitySystemComponent* AbilitySystemComponent;
