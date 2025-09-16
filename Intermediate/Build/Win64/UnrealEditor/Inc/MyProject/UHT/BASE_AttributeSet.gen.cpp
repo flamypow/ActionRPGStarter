@@ -57,10 +57,13 @@ struct Z_Construct_UClass_UBASE_AttributeSet_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+		{ "BlueprintType", "true" },
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
 #endif
+		{ "HideInDetailsView", "" },
 		{ "IncludePath", "BASE_AttributeSet.h" },
+		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "BASE_AttributeSet.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
@@ -118,10 +121,10 @@ UBASE_AttributeSet::~UBASE_AttributeSet() {}
 struct Z_CompiledInDeferFile_FID_Users_wytch_Documents_ActionRPGStarter_Source_MyProject_BASE_AttributeSet_h__Script_MyProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UBASE_AttributeSet, UBASE_AttributeSet::StaticClass, TEXT("UBASE_AttributeSet"), &Z_Registration_Info_UClass_UBASE_AttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBASE_AttributeSet), 2904131026U) },
+		{ Z_Construct_UClass_UBASE_AttributeSet, UBASE_AttributeSet::StaticClass, TEXT("UBASE_AttributeSet"), &Z_Registration_Info_UClass_UBASE_AttributeSet, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBASE_AttributeSet), 2743842068U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_wytch_Documents_ActionRPGStarter_Source_MyProject_BASE_AttributeSet_h__Script_MyProject_3065690455(TEXT("/Script/MyProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_wytch_Documents_ActionRPGStarter_Source_MyProject_BASE_AttributeSet_h__Script_MyProject_3780958830(TEXT("/Script/MyProject"),
 	Z_CompiledInDeferFile_FID_Users_wytch_Documents_ActionRPGStarter_Source_MyProject_BASE_AttributeSet_h__Script_MyProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_wytch_Documents_ActionRPGStarter_Source_MyProject_BASE_AttributeSet_h__Script_MyProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

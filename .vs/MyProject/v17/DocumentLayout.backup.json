@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B113117A-7F94-3DD9-8E24-AC0F64621703}|Intermediate\\ProjectFiles\\MyProject.vcxproj|C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\CharacterWithGameplayAttributes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B113117A-7F94-3DD9-8E24-AC0F64621703}|Intermediate\\ProjectFiles\\MyProject.vcxproj|solutionrelative:Source\\MyProject\\CharacterWithGameplayAttributes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B113117A-7F94-3DD9-8E24-AC0F64621703}|Intermediate\\ProjectFiles\\MyProject.vcxproj|C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B113117A-7F94-3DD9-8E24-AC0F64621703}|Intermediate\\ProjectFiles\\MyProject.vcxproj|solutionrelative:Source\\MyProject\\BASE_AttributeSet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -23,19 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BASE_AttributeSet.h",
-              "DocumentMoniker": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.h",
-              "RelativeDocumentMoniker": "Source\\MyProject\\BASE_AttributeSet.h",
-              "ToolTip": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.h",
-              "RelativeToolTip": "Source\\MyProject\\BASE_AttributeSet.h",
-              "ViewState": "AgIAABQAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Title": "CharacterWithGameplayAttributes.h",
+              "DocumentMoniker": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\CharacterWithGameplayAttributes.h",
+              "RelativeDocumentMoniker": "Source\\MyProject\\CharacterWithGameplayAttributes.h",
+              "ToolTip": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\CharacterWithGameplayAttributes.h",
+              "RelativeToolTip": "Source\\MyProject\\CharacterWithGameplayAttributes.h",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-09T17:20:32.647Z",
+              "WhenOpened": "2025-09-15T22:36:52.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BASE_AttributeSet.cpp",
               "DocumentMoniker": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.cpp",
               "RelativeDocumentMoniker": "Source\\MyProject\\BASE_AttributeSet.cpp",
@@ -43,8 +47,19 @@
               "RelativeToolTip": "Source\\MyProject\\BASE_AttributeSet.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-09T17:20:39.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-15T21:24:00.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BASE_AttributeSet.h",
+              "DocumentMoniker": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.h",
+              "RelativeDocumentMoniker": "Source\\MyProject\\BASE_AttributeSet.h",
+              "ToolTip": "C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\BASE_AttributeSet.h",
+              "RelativeToolTip": "Source\\MyProject\\BASE_AttributeSet.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-15T21:23:51.953Z"
             }
           ]
         }

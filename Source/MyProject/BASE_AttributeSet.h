@@ -18,7 +18,7 @@
  * 
  */
 
-UCLASS(Blueprintable, BlueprintType, meta = (HideInDetailsView), MinimalAPI)
+UCLASS(Blueprintable, BlueprintType, meta = (HideInDetailsView))
 class MYPROJECT_API UBASE_AttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()

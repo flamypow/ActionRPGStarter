@@ -1,6 +1,8 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject\\MyProject.Build.cs",
+		"C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
 		"C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProject.Target.cs",
 		"C:\\Users\\wytch\\Documents\\ActionRPGStarter\\Source\\MyProjectEditor.Target.cs"
 	],
