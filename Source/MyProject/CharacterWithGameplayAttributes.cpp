@@ -3,7 +3,6 @@
 
 #include "CharacterWithGameplayAttributes.h"
 #include "BASE_AttributeSet.h"
-
 // Sets default values
 ACharacterWithGameplayAttributes::ACharacterWithGameplayAttributes()
 {
@@ -11,9 +10,9 @@ ACharacterWithGameplayAttributes::ACharacterWithGameplayAttributes()
 	PrimaryActorTick.bCanEverTick = true;
 
 	AbilitySystemComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
-	AbilitySystemComponent->SetIsReplicated(true);
+	//AbilitySystemComponent->SetIsReplicated(true);
 
-	BASEAttributeSet = CreateDefaultSubobject<UBASE_AttributeSet>(TEXT("BaseAttributeSet"));
+	//BASEAttributeSet = CreateDefaultSubobject<UBASE_AttributeSet>(TEXT("BaseAttributeSet"));
 	
 }
 
@@ -21,6 +20,13 @@ UAbilitySystemComponent* ACharacterWithGameplayAttributes::GetAbilitySystemCompo
 {
 	return AbilitySystemComponent;
 }
+
+UBASE_AttributeSet* ACharacterWithGameplayAttributes::GetBASEAttributeSet() const
+{
+	//ToDo
+	return nullptr;
+}
+
 
 // Called when the game starts or when spawned
 void ACharacterWithGameplayAttributes::BeginPlay()
@@ -30,7 +36,7 @@ void ACharacterWithGameplayAttributes::BeginPlay()
 	if (IsValid(AbilitySystemComponent))
 	{
 		// Get the UMyAttributeSet from our Ability System Component. The Ability System Component will create and register one if needed.
-		//BASEAttributeSet = AbilitySystemComponent->GetSet<UBASE_AttributeSet>();
+		BASEAttributeSet = AbilitySystemComponent->GetSet<UBASE_AttributeSet>();
 
 		// We now have a pointer to the new UMyAttributeSet that we can use later. If it has an initialization function, this is a good place to call it.
 	}
@@ -49,4 +55,5 @@ void ACharacterWithGameplayAttributes::SetupPlayerInputComponent(UInputComponent
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+
 
