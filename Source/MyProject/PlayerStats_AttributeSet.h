@@ -25,10 +25,10 @@ class MYPROJECT_API UPlayerStats_AttributeSet : public UAttributeSet
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Basic Attributes")
 		FGameplayAttributeData Mana;
-	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, Mana)
+	ATTRIBUTE_ACCESSORS(UPlayerStats_AttributeSet, Mana)
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Basic Attributes")
 		FGameplayAttributeData MaxMana;
-	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, MaxMana)
+	ATTRIBUTE_ACCESSORS(UPlayerStats_AttributeSet, MaxMana)
 
 };

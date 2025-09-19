@@ -3,6 +3,8 @@
 
 #include "CharacterWithGameplayAttributes.h"
 #include "BASE_AttributeSet.h"
+#include "PlayerStats_AttributeSet.h"
+#include "PlayerActionValues_AttributeSet.h"
 // Sets default values
 ACharacterWithGameplayAttributes::ACharacterWithGameplayAttributes()
 {
@@ -21,11 +23,21 @@ UAbilitySystemComponent* ACharacterWithGameplayAttributes::GetAbilitySystemCompo
 	return AbilitySystemComponent;
 }
 
-UBASE_AttributeSet* ACharacterWithGameplayAttributes::GetBASEAttributeSet() const
+/*UBASE_AttributeSet* ACharacterWithGameplayAttributes::GetBASEAttributeSet() const
 {
 	//ToDo
 	return nullptr;
 }
+
+UPlayerStats_AttributeSet* ACharacterWithGameplayAttributes::GetPlayerStatsAttributeSet() const
+{
+	return nullptr;
+}
+
+UPlayerActionValue_AttributeSet* ACharacterWithGameplayAttributes::GetPlayerActionValueAttributeSet() const
+{
+	return nullptr;
+}*/
 
 
 // Called when the game starts or when spawned
@@ -37,7 +49,8 @@ void ACharacterWithGameplayAttributes::BeginPlay()
 	{
 		// Get the UMyAttributeSet from our Ability System Component. The Ability System Component will create and register one if needed.
 		BASEAttributeSet = AbilitySystemComponent->GetSet<UBASE_AttributeSet>();
-
+		PlayerStatsAttributeSet = AbilitySystemComponent->GetSet<UPlayerStats_AttributeSet>();
+		PlayerActionValuesAttributeSet = AbilitySystemComponent->GetSet<UPlayerActionValues_AttributeSet>();
 		// We now have a pointer to the new UMyAttributeSet that we can use later. If it has an initialization function, this is a good place to call it.
 	}
 }

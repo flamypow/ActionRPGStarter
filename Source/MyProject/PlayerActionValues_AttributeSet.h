@@ -26,5 +26,5 @@ class MYPROJECT_API UPlayerActionValues_AttributeSet : public UAttributeSet
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Player Action Value")
 		FGameplayAttributeData ActionValueL1;
-	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, ActionValueL1)
+	ATTRIBUTE_ACCESSORS(UPlayerActionValues_AttributeSet, ActionValueL1)
 };
