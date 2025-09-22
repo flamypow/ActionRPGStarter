@@ -18,7 +18,7 @@
  *
  */
 
-UCLASS()
+UCLASS(Blueprintable, BlueprintType)
 class MYPROJECT_API UPlayerActionValues_AttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()

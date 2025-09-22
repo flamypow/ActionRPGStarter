@@ -51,7 +51,7 @@ void ACharacterWithGameplayAttributes::BeginPlay()
 		BASEAttributeSet = AbilitySystemComponent->GetSet<UBASE_AttributeSet>();
 		PlayerStatsAttributeSet = AbilitySystemComponent->GetSet<UPlayerStats_AttributeSet>();
 		PlayerActionValuesAttributeSet = AbilitySystemComponent->GetSet<UPlayerActionValues_AttributeSet>();
-		// We now have a pointer to the new UMyAttributeSet that we can use later. If it has an initialization function, this is a good place to call it.
+		
 	}
 }
 

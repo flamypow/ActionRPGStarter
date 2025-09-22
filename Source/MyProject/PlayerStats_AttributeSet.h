@@ -17,7 +17,8 @@
 /**
  *
  */
-UCLASS()
+
+UCLASS(Blueprintable, BlueprintType)
 class MYPROJECT_API UPlayerStats_AttributeSet : public UAttributeSet
 {
 	GENERATED_BODY()
@@ -31,4 +32,8 @@ public:
 		FGameplayAttributeData MaxMana;
 	ATTRIBUTE_ACCESSORS(UPlayerStats_AttributeSet, MaxMana)
 
+
+	UPlayerStats_AttributeSet();
+
+	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
 };
