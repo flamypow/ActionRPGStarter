@@ -3,3 +3,9 @@
 
 #include "BASE_AttributeSet.h"
 
+void UBASE_AttributeSet::PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue)
+{
+	Super::PreAttributeChange(Attribute, NewValue);
+
+	//if(Attribute == )
+}
