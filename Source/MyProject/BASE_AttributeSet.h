@@ -40,4 +40,5 @@ public:
 		FGameplayAttributeData Defense;
 	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, Defense)
 
+	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
 };
