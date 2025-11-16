@@ -33,6 +33,14 @@ public:
 	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, MaxHealth)
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Basic Attributes")
+		FGameplayAttributeData SuperMeter;
+	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, SuperMeter)
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Basic Attributes")
+		FGameplayAttributeData MaxSuperMeter;
+	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, MaxSuperMeter)
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Basic Attributes")
 		FGameplayAttributeData Attack;
 	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, Attack)
 
@@ -41,4 +49,6 @@ public:
 	ATTRIBUTE_ACCESSORS(UBASE_AttributeSet, Defense)
 
 	virtual void PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue) override;
+
+	virtual void PostGameplayEffectExecute(const FGameplayEffectModCallbackData& Data) override;
 };
